@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+		<Nullable>enable</Nullable>
+		<AssemblyName>CharacterAnnouncer</AssemblyName>
+		<BepInExPluginGuid>com.guardie.characterannouncer</BepInExPluginGuid>
+		<Description>Re-Enables the character selection sound effects</Description>
+		<Version>1.0.0</Version>
+		<LangVersion>latest</LangVersion>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Required: BepInEx and the game code itself! -->
+		<PackageReference Include="BepInEx.Core" Version="5.*" />
+		<PackageReference Include="TromboneChamp.GameLibs" Version="1.9.9" />
+		<PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
+		<PackageReference Include="UnityEngine.Modules" Version="2019.3.11" IncludeAssets="compile" />
+
+		<!-- BaboonAPI provides useful hooks and patches for mods, -->
+		<!-- but it's not strictly required -->
+		<PackageReference Include="TromboneChamp.BaboonAPI" Version="2.2.1" />
+	</ItemGroup>
+</Project>
