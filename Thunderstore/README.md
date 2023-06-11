@@ -1,0 +1,1 @@
+A very simple mod that enables the scrapped Smash-Bros like voice clips that would (probably) play when selecting a character

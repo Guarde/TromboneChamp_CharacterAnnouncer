@@ -1,0 +1,9 @@
+{
+    "name": "CharacterAnnouncer",
+    "version_number": "2.0.0",
+    "website_url": "https://github.com/Guarde/TromboneChamp_CharacterAnnouncer",
+    "description": "Adds a SmashBros-like announcer to the character select screen",
+    "dependencies": [
+        "BepInEx-BepInExPack_TromboneChamp-5.4.21"
+    ]
+}
